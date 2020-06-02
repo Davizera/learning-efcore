@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Learning_EFCore.Data
 {
+    //This class was created for seeding the database
+    //The database should be always dropped and created every time the application is "turned on"
     public class SampleData
     {
         public static IEnumerable<Employee> EmployeesColletion = new[] {
